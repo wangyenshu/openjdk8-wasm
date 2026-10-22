@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenJDK8-Wasm Bookmarklet</title>
+</head>
+<body>
+
+    <header>
+        <h3>A Bookmarklet that allows you to run java applet and java web start in browser.</h3>
+    </header>
+
+    <main>
+        <p>Drag the following link to your bookmark:</p>
+        <a href="javascript:(function()%7B(function%20()%20%7B%0A%20%20if%20(window.OpenJDK8)%20return%3B%0A%20%20var%20s%20%3D%20document.createElement('script')%3B%0A%20%20s.src%20%3D%20'https%3A%2F%2Fwangyenshu.github.io%2Fopenjdk8-wasm%2Fopenjdk8-web.js'%3B%0A%20%20document.body.appendChild(s)%3B%0A%7D)()%3B%7D)()%3B">openjdk8-wasm</a>
+      <p>Source: <a href="https://github.com/wangyenshu/openjdk8-wasm">https://github.com/wangyenshu/openjdk8-wasm</a></p>
+    </main>
+</body>
+</html>
+
